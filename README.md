@@ -1,6 +1,12 @@
 # iOS15-SwiftUI-Navigation-Bug
 Demonstrates SwiftUI Navigation behavior change from iOS 14 to iOS 15 which disallows single-source-of-truth state management.
 
+### 2021/09/24 18:28 EDIT
+
+Using `.navigationViewStyle(.stack)` helps avoiding this bug.
+
+https://twitter.com/chriseidhof/status/1441330150872735745
+
 ## Xcode 12.5.1 / iOS 14.5
 
 NOTE: Array of `isActive`s was already broken in iOS 14, but UI transition was working correctly.
