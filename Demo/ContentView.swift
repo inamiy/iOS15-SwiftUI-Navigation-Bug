@@ -9,6 +9,7 @@ struct AppView: View {
             ContentView(level: 0)
                 .environmentObject(viewModel)
         }
+        .navigationViewStyle(.stack)
     }
 }
 
